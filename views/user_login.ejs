@@ -1,0 +1,20 @@
+<%- include('./partials/header'); %>
+
+    <body class="h-screen w-screen flex items-center justify-center bg-gray-100">
+
+        <div class="relative h-full w-full bg-[#FCE365]">
+            <!-- Full-screen Image -->
+            <img  src="https://imgs.search.brave.com/UUyxOYKH5IAOTGjG3jgfSccVN3ol92G86THyIhBvBhg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZXRpbWcuY29tL3Ro/dW1iL21zaWQtOTI0/NDAyMDEsd2lkdGgt/NjUwLGhlaWdodC00/ODgsaW1nc2l6ZS0x/ODU4NjY3LHJlc2l6/ZW1vZGUtNzUvem9t/YXRvLWJvYXJkLWFw/cHJvdmUtdGhlLWFj/cXVpc2l0aW9uLW9m/LWJsaW5raXQuanBn" alt="Background Image" class="object-contain w-full h-full">
+
+            <!-- Button at the Bottom -->
+            <div class="absolute bottom-0 w-full flex justify-center mb-8">
+                <a href="/auth/google"
+                    class="bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-black transition duration-300">
+                    Continue with Google
+                </a>
+            </div>
+        </div>
+
+    </body>
+
+    <%- include('./partials/footer'); %>
